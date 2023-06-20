@@ -5,6 +5,248 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const App = () => {
 	const [characters,setCharacters] = useState([]);
+	let ele = [ {
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	},
+	{
+		"id": 276,
+		"name": "Rat Boss",
+		"status": "Dead",
+		"species": "Animal",
+		"type": "Rat",
+		"gender": "unknown",
+		"origin": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"location": {
+			"name": "Earth (Replacement Dimension)",
+			"url": "https://rickandmortyapi.com/api/location/20"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/276.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/24"
+		],
+		"url": "https://rickandmortyapi.com/api/character/276",
+		"created": "2017-12-31T14:17:21.782Z"
+	} ]
 	const [filteredCharacters, setFilteredCharacters] = useState([])
 	const [page, setPage] = useState(1);
 	const [query, setQuery] = useState("");
@@ -12,6 +254,7 @@ const App = () => {
 		const fetchData = async () => {
 			const temp = await fetch(`https://rickandmortyapi.com/api/character?page=${page}`)
 			const data = await temp.json()
+			console.log(data);
 			if(data.results)
 			{
 				setCharacters(currentlist => [...currentlist, ...data.results]);
@@ -23,7 +266,8 @@ const App = () => {
 
       const handlescroll = async () => {
         if ((window.innerHeight + document.documentElement.scrollTop + 1) >= document.documentElement.scrollHeight ) {
-            setPage((page) => page + 1);
+            // setPage((page) => page + 1);
+			console.log("pageReached");
 			return;
         }
     }
@@ -48,9 +292,9 @@ const App = () => {
 			<h1>Rick & Morty</h1>
 			<input type="text" placeholder="search" onChange={(e) => setQuery(e.target.value)} /> 
 			</div>
-		<div className="results">
+			<div className="results">
 			{
-			filteredCharacters.map((character) => (
+			ele.map((character) => (
 				<div className="character">
 				<LazyLoadImage src={character.image} alt={character.name} effect='blur'/>
 				<center>{character.name}</center>
